@@ -8,8 +8,7 @@ export default defineConfig(({ mode }) => {
     const isGithubPages = process.env.CI === 'true';
     
     return {
-      // 修正ポイント：GitHub Pages（CI環境）ならリポジトリ名、そうでなければルート
-      base: isGithubPages ? '/aoiaoi/' : '/', 
+      base: isGithubPages ? '/' : '/',  // リポジトリ名が必要な場合は '/<repo-name>/' に変更
       server: {
         port: 3000,
         host: '0.0.0.0',
