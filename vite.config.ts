@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     const isGithubPages = process.env.CI === 'true';
     
     return {
-      // GitHub Pages用。リポジトリ名 'aoiaoi' をベースパスに設定
+      // ★ここが重要：serverの中ではなく、return直下に書く
       base: isGithubPages ? '/aoiaoi/' : '/',
       
       server: {
