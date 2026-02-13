@@ -104,7 +104,7 @@ const App: React.FC = () => {
 
                   <div className="relative z-10 flex flex-col items-center animate-[fadeIn_2s_ease-out_0.5s]">
                     <h1 className="text-2xl md:text-4xl text-zinc-800 font-serif tracking-[0.25em] leading-normal pb-4 drop-shadow-[0_2px_10px_rgba(196,169,98,0.2)]">
-                      透明な響きへ還る
+                      透明な響きへ還るqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
                     </h1>
                   </div>
                 </div>
